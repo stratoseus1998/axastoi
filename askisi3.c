@@ -3,14 +3,18 @@
 #include <math.h>
 #include <time.h>
 
+
 main(){
 	
 int array[9];
 
 int i;
+srand(2650);
 for(i=0;i<=9;i++){
 
-	//srand(2650); 
+	
+	
+
 	array[i]=(rand() % 10) + 1;
 	
 	
@@ -40,7 +44,9 @@ for(i=0;i<=9;i++){
 	
 	
 	
-}		
+}
+
+		
 
 
 	
